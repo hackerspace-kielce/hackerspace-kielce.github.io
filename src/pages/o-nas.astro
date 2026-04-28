@@ -1,0 +1,83 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+
+const areas = [
+  "programowanie i web",
+  "sztuczna inteligencja i ML",
+  "elektronika i embedded",
+  "robotyka i automatyka",
+  "cyberbezpieczeństwo",
+  "open-source i self-hosting"
+];
+---
+
+<MainLayout
+  title="O nas | Hackerspace Kielce"
+  description="Poznaj społeczność Hackerspace Kielce i obszary, które chcemy rozwijać lokalnie."
+>
+  <section class="shell py-16 sm:py-20">
+    <SectionHeading
+      eyebrow="O nas"
+      title="Budujemy społeczność technologiczną zakorzenioną w Kielcach"
+      text="Hackerspace Kielce to inicjatywa dla osób, które chcą spotykać się lokalnie, dzielić wiedzą i tworzyć rzeczy razem: od aplikacji i automatyzacji po hardware, bezpieczeństwo i prototypowanie."
+    />
+
+    <div class="mt-10 grid gap-6 lg:grid-cols-[1fr_0.9fr]">
+      <div class="panel p-7">
+        <h3 class="text-2xl font-semibold text-white">Jak działamy</h3>
+        <div class="mt-5 space-y-4 leading-7 text-slate-300">
+          <p>
+            Chcemy rozwijać w Kielcach miejsce, które łączy klimat meetupów, warsztatów i roboczych
+            wieczorów nad projektami. Bez korporacyjnej spiny, ale z technicznym konkretem.
+          </p>
+          <p>
+            Interesują nas zarówno początkujący, jak i doświadczeni praktycy. Wartością jest gotowość
+            do dzielenia się wiedzą, eksperymentowania i wspierania innych.
+          </p>
+          <p>
+            Ta strona jest statyczna i prosta celowo: najważniejsza jest społeczność, spotkania i
+            energia ludzi z regionu świętokrzyskiego.
+          </p>
+        </div>
+      </div>
+
+      <div class="panel p-7">
+        <h3 class="text-2xl font-semibold text-white">Obszary zainteresowań</h3>
+        <div class="mt-5 flex flex-wrap gap-3">
+          {areas.map((area) => <span class="tag">{area}</span>)}
+        </div>
+        <p class="mt-6 leading-7 text-slate-300">
+          Jeśli Twój temat nie mieści się idealnie w tej liście, to też jest okej. Hackerspace ma być
+          miejscem łączenia ludzi, nie zamykania ich w szufladkach.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="shell py-16 pb-24">
+    <div class="grid gap-6 md:grid-cols-3">
+      <article class="panel p-6">
+        <p class="eyebrow">Misja</p>
+        <h3 class="mt-3 text-xl font-semibold text-white">Tworzyć lokalne środowisko</h3>
+        <p class="mt-4 leading-7 text-slate-300">
+          Chcemy, żeby osoby techniczne z Kielc miały swoje miejsce do poznawania się i wspólnej pracy.
+        </p>
+      </article>
+      <article class="panel p-6">
+        <p class="eyebrow">Forma</p>
+        <h3 class="mt-3 text-xl font-semibold text-white">Spotkania i warsztaty</h3>
+        <p class="mt-4 leading-7 text-slate-300">
+          Regularne meetupy, tematyczne sesje robocze, lightning talki i praktyczne wieczory projektowe.
+        </p>
+      </article>
+      <article class="panel p-6">
+        <p class="eyebrow">Kultura</p>
+        <h3 class="mt-3 text-xl font-semibold text-white">Otwartość i szacunek</h3>
+        <p class="mt-4 leading-7 text-slate-300">
+          Szukamy ludzi ciekawych świata, którzy potrafią współpracować i budować bez gatekeepingu.
+        </p>
+      </article>
+    </div>
+  </section>
+</MainLayout>
