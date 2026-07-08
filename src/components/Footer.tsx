@@ -1,9 +1,4 @@
-const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/kielce-hackerspace/" },
-  // { label: "Facebook", href: "https://www.facebook.com/example" },
-  { label: "Discord", href: "https://discord.gg/sVvB8QmDkA" },
-  { label: "GitHub", href: "https://github.com/hackerspace-kielce" }
-];
+import SocialLinks from "./SocialLinks";
 
 export default function Footer() {
   return (
@@ -19,17 +14,8 @@ export default function Footer() {
         </div>
 
         <div className="md:justify-self-end">
-          <p className="font-mono text-sm uppercase tracking-[0.25em] text-steel">Znajdź nas</p>
-          <ul className="mt-3 flex flex-wrap gap-3 text-sm text-slate-300">
-            {socials.map((social) => (
-              <li key={social.label}>
-                <a className="hover:text-accent-soft" href={social.href} target="_blank" rel="noreferrer">
-                  {social.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-5 text-sm text-slate-400">Kielce, Polska • statyczna strona bez backendu</p>
+          <SocialLinks />
+          <p className="mt-5 text-sm text-slate-400">Kielce, Polska •</p>
         </div>
       </div>
     </footer>

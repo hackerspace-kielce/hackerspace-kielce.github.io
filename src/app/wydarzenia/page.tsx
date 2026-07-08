@@ -14,7 +14,7 @@ export default function Wydarzenia() {
         <SectionHeading
           eyebrow="Wydarzenia"
           title="Spotkania, warsztaty i techniczne wieczory w Kielcach"
-          text="Poniżej przykładowy kalendarz wydarzeń. Docelowo może służyć jako prosta, statyczna tablica dla lokalnej społeczności bez potrzeby stawiania backendu."
+          // text="Poniżej przykładowy kalendarz wydarzeń. Docelowo może służyć jako prosta, statyczna tablica dla lokalnej społeczności bez potrzeby stawiania backendu."
         />
 
         <div className="mt-10 grid gap-6">
