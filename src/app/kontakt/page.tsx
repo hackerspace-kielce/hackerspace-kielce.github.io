@@ -9,23 +9,23 @@ export const metadata: Metadata = {
 const channels = [
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/company/example",
-    text: "Placeholder dla komunikacji zawodowej i partnerstw."
+    href: "https://www.linkedin.com/company/kielce-hackerspace/",
+    text: "Dla komunikacji zawodowej i partnerstw."
   },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/example",
-    text: "Placeholder dla lokalnych ogłoszeń i wydarzeń społecznościowych."
-  },
+  // {
+  //   name: "Facebook",
+  //   href: "https://www.facebook.com/example",
+  //   text: "Placeholder dla lokalnych ogłoszeń i wydarzeń społecznościowych."
+  // },
   {
     name: "Discord",
-    href: "https://discord.gg/example",
-    text: "Placeholder dla codziennej komunikacji, pytań i organizacji spotkań."
+    href: "https://discord.gg/sVvB8QmDkA",
+    text: "Nasz Discord."
   },
   {
     name: "GitHub",
-    href: "https://github.com/example",
-    text: "Placeholder dla projektów open-source, dokumentacji i eksperymentów."
+    href: "https://github.com/hackerspace-kielce",
+    text: "Nasze repozytoria."
   }
 ];
 

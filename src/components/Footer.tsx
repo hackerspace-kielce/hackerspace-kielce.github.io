@@ -1,8 +1,8 @@
 const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/example" },
-  { label: "Facebook", href: "https://www.facebook.com/example" },
-  { label: "Discord", href: "https://discord.gg/example" },
-  { label: "GitHub", href: "https://github.com/example" }
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/kielce-hackerspace/" },
+  // { label: "Facebook", href: "https://www.facebook.com/example" },
+  { label: "Discord", href: "https://discord.gg/sVvB8QmDkA" },
+  { label: "GitHub", href: "https://github.com/hackerspace-kielce" }
 ];
 
 export default function Footer() {

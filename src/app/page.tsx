@@ -115,7 +115,7 @@ export default function Home() {
         <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
             eyebrow="Najbliższe spotkania"
-            title="Przykładowe wydarzenia społeczności"
+            title="Wydarzenia"
             text="Startujemy od kameralnych spotkań i warsztatów, ale chcemy rozwijać regularny rytm dla całego lokalnego środowiska tech."
           />
           <Link className="button-secondary self-start sm:self-auto" href="/wydarzenia">Pełny kalendarz</Link>
@@ -141,7 +141,7 @@ export default function Home() {
             <div>
               <p className="eyebrow">Dołącz do nas</p>
               <h2 className="mt-3 text-3xl font-semibold text-white sm:text-4xl">
-                Jeśli mieszkasz w Kielcach albo blisko, wpadaj na pierwsze spotkanie.
+                Jeśli mieszkasz w Kielcach albo blisko, dołącz do naszego Discord.
               </h2>
               <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-300">
                 Nie potrzebujesz gotowego portfolio. Szukamy ludzi, którzy chcą uczyć się, budować i
